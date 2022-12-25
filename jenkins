@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage("Fetch code") {
       steps {
-        git branch: 'main', url: 'https://github.com/helpingpeopletolearn/html-portal.git'
+        git branch: 'main', url: 'https://https://github.com/prasanthghub/pras.git'
       }
     }
      stage("Install Apache") {
